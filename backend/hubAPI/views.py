@@ -195,7 +195,7 @@ class ImportInvoicesAPIView(APIView):
 
             try:
                 invoice_dict = PDFInvoiceImporter(file_path, institution).process_file()
-            except:
+            except Exception as e:
                 os.remove(file_path)
                 return custom_user_error_response(InvoiceProcessingException.message)
 
