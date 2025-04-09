@@ -133,6 +133,7 @@ class Wallet(models.Model):
             .aggregate(Sum('value')).get('value__sum') or 0
 
     def get_saving_plans(self):
+            # Méthode vide intentionnellement pour surcharge future
         pass
 
     def get_labels(self) -> QuerySet['CustomLabel']:
@@ -214,6 +215,7 @@ class TransactionRecurrency(models.Model):
     end_date = models.DateTimeField(blank=True, null=True)
 
     def trigger_async_instantiation(self):
+            # Méthode vide intentionnellement pour surcharge future
         pass
 
     def get_amount(self):
