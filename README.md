@@ -108,6 +108,8 @@ This project is thought, planned and implemented by [Isabella Aquino](https://gi
 
 # FinancialHub - Fork SL/SC/PL
 ![image](Workflow.png)
+![image](Ticket.png)
+
 
 ## Présentation 📝
 
