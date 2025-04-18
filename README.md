@@ -107,9 +107,14 @@ This project is thought, planned and implemented by [Isabella Aquino](https://gi
 
 
 # FinancialHub - Fork SL/SC/PL
+
+Workflow
 ![image](Workflow.png)
 
+Ticketing Jira
 ![image](Ticket.png)
+![image](Ticket1.png)
+
 
 
 ## Présentation 📝
